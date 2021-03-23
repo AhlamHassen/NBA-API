@@ -13,7 +13,8 @@ namespace webApi.Controllers
         public Team Team { get; set; }
         public List<Team> Teams;
 
-        public NbaApiController(){
+        public NbaApiController()
+        {
             this.Team = new Team();
             this.Teams = new List<Team>();
         }
@@ -40,26 +41,29 @@ namespace webApi.Controllers
         }
 
         [HttpGet("GetTeams")]
-        public List<Team> getTeams(){
+        public List<Team> getTeams()
+        {
             string connectionString = @"Data Source=databaseSourceHere;
             Initial Catalog=databaseNameHere;User ID=admin/TheIDUsed; Password=yourpassonAWS";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString= "SELECT * FROM Team";
+            string queryString = "SELECT * FROM Team";
 
             SqlCommand command = new SqlCommand(queryString, con);
             con.Open();
 
-            using(SqlDataReader reader = command.ExecuteReader()){
-                 while(reader.Read()){
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
                     Teams.Add(
                         new Team(reader[0].ToString())
                     );
                 }
             }
 
-            return Teams; 
+            return Teams;
         }
-        
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj": {}
+    "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj": {
+    "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj",
+        "projectUniqueName": "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj",
         "projectName": "Team",
-        "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj",
+        "projectPath": "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\obj\\",
+        "outputPath": "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 
-namespace Team
+namespace Teams
 {
     public class Team
     {

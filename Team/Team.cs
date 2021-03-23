@@ -40,6 +40,27 @@ namespace Team
             return found;
         }
 
+        public string addTeam(Team t){
+            string connectionString = @"Data Source=databaseSourceHere;
+            Initial Catalog=databaseNameHere;User ID=admin/TheIDUsed; Password=yourpassonAWS";
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString = "INSERT INTO Team (TeamName) VALUES (@team)"; 
+            
+            SqlCommand command = new SqlCommand(queryString, con);
+            command.Parameters.AddWithValue("@team", t.TeamName);
+            con.Open();
+            int result = command.ExecuteNonQuery();
+
+            //Check errors 
+            if(result<0){
+                return "Fail";
+            }
+            else{
+                return "Success";
+            }
+        }
+
         
     }
 }

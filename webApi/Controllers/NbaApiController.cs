@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc;
 using Teams;
 
@@ -36,6 +37,28 @@ namespace webApi.Controllers
         {
             string message = this.Team.addTeam(team);
             return message;
+        }
+
+        [HttpGet("GetTeams")]
+        public List<Team> getTeams(){
+            string connectionString = @"Data Source=databaseSourceHere;
+            Initial Catalog=databaseNameHere;User ID=admin/TheIDUsed; Password=yourpassonAWS";
+            SqlConnection con = new SqlConnection(connectionString);
+
+            string queryString= "SELECT * FROM Team";
+
+            SqlCommand command = new SqlCommand(queryString, con);
+            con.Open();
+
+            using(SqlDataReader reader = command.ExecuteReader()){
+                 while(reader.Read()){
+                    Teams.Add(
+                        new Team(reader[0].ToString())
+                    );
+                }
+            }
+
+            return Teams; 
         }
         
     }

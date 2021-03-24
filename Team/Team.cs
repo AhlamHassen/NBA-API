@@ -22,11 +22,11 @@ namespace Teams
 
         public Team checkTeam(Team t)
         {
-            string connectionString = @"Data Source=databaseSourceHere;
-            Initial Catalog=databaseNameHere;User ID=admin/TheIDUsed; Password=yourpassonAWS";
+            string connectionString = @"Data Source=nba-database.cipoitywrwyj.us-east-1.rds.amazonaws.com;
+            Initial Catalog=NBA-Database;User ID=admin; Password=daniel180";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString = "SELECT * FROM Team WHERE TeamName = @team";
+            string queryString = "SELECT * FROM tbl_TEAMS WHERE TEAM_NAME = @team";
 
             SqlCommand command = new SqlCommand(queryString, con);
             command.Parameters.AddWithValue("@team", t.TeamName);
@@ -46,11 +46,11 @@ namespace Teams
 
         public string addTeam(Team t)
         {
-            string connectionString = @"Data Source=databaseSourceHere;
-            Initial Catalog=databaseNameHere;User ID=admin/TheIDUsed; Password=yourpassonAWS";
+            string connectionString = @"Data Source=nba-database.cipoitywrwyj.us-east-1.rds.amazonaws.com;
+            Initial Catalog=NBA-Database;User ID=admin; Password=daniel180";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString = "INSERT INTO Team (TeamName) VALUES (@team)";
+            string queryString = "INSERT INTO tbl_TEAMS (TEAM_NAME) VALUES (@team)";
 
             SqlCommand command = new SqlCommand(queryString, con);
             command.Parameters.AddWithValue("@team", t.TeamName);

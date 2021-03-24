@@ -43,11 +43,11 @@ namespace webApi.Controllers
         [HttpGet("GetTeams")]
         public List<Team> getTeams()
         {
-            string connectionString = @"Data Source=databaseSourceHere;
-            Initial Catalog=databaseNameHere;User ID=admin/TheIDUsed; Password=yourpassonAWS";
+            string connectionString = @"Data Source=nba-database.cipoitywrwyj.us-east-1.rds.amazonaws.com;
+            Initial Catalog=NBA-Database;User ID=admin; Password=daniel180";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString = "SELECT * FROM Team";
+            string queryString = "SELECT * FROM tbl_TEAMS";
 
             SqlCommand command = new SqlCommand(queryString, con);
             con.Open();

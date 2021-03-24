@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj": {}
+    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj": {}
   },
   "projects": {
-    "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj": {
+    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj",
         "projectName": "Team",
-        "projectPath": "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\Team.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\User\\OneDrive - Swinburne University\\NBA-API\\Team\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

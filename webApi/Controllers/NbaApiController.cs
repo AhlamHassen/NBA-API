@@ -50,16 +50,24 @@ namespace webApi.Controllers
             string queryString = "SELECT * FROM tbl_TEAMS";
 
             SqlCommand command = new SqlCommand(queryString, con);
-            con.Open();
 
-            using (SqlDataReader reader = command.ExecuteReader())
+            try
             {
-                while (reader.Read())
+                con.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
                 {
-                    Teams.Add(
-                        new Team(reader[0].ToString())
-                    );
+                    while (reader.Read())
+                    {
+                        Teams.Add(
+                            new Team(reader[1].ToString())
+                        );
+                    }
                 }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+                con.Close();
             }
 
             return Teams;

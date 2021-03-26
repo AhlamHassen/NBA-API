@@ -30,15 +30,24 @@ namespace Teams
 
             SqlCommand command = new SqlCommand(queryString, con);
             command.Parameters.AddWithValue("@team", t.TeamName);
-            con.Open();
             Team found = null;
 
-            using (SqlDataReader reader = command.ExecuteReader())
+            try
             {
-                while (reader.Read())
+                con.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
                 {
-                    found = new Team(reader[0].ToString());
+                    while (reader.Read())
+                    {
+                        found = new Team(reader[0].ToString());
+                    }
                 }
+
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+                con.Close();
             }
 
             return found;
@@ -54,9 +63,17 @@ namespace Teams
 
             SqlCommand command = new SqlCommand(queryString, con);
             command.Parameters.AddWithValue("@team", t.TeamName);
-            con.Open();
-            int result = command.ExecuteNonQuery();
 
+            int result = 0;
+            try{
+                con.Open();
+                result = command.ExecuteNonQuery();
+            }
+            catch(SqlException ex){
+                Console.WriteLine(ex.Message);
+                con.Close();
+            }
+            
             //Check errors 
             if (result < 0)
             {

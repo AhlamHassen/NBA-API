@@ -22,11 +22,11 @@ namespace Teams
 
         public Team checkTeam(Team t)
         {
-            string connectionString = @"Data Source=nba-database.cipoitywrwyj.us-east-1.rds.amazonaws.com;
-            Initial Catalog=NBA-Database;User ID=admin; Password=daniel180";
+            string connectionString = @"Data Source=nba-db-main.cp0wohpwv9ub.us-east-1.rds.amazonaws.com;
+            Initial Catalog=nba-db-main;User ID=admin; Password=nbaadmin1234";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString = "SELECT * FROM tbl_TEAMS WHERE TEAM_NAME = @team";
+            string queryString = "SELECT * FROM Team WHERE TeamName = @team";
 
             SqlCommand command = new SqlCommand(queryString, con);
             command.Parameters.AddWithValue("@team", t.TeamName);
@@ -55,11 +55,11 @@ namespace Teams
 
         public string addTeam(Team t)
         {
-            string connectionString = @"Data Source=nba-database.cipoitywrwyj.us-east-1.rds.amazonaws.com;
-            Initial Catalog=NBA-Database;User ID=admin; Password=daniel180";
+            string connectionString = @"Data Source=nba-db-main.cp0wohpwv9ub.us-east-1.rds.amazonaws.com;
+            Initial Catalog=nba-db-main;User ID=admin; Password=nbaadmin1234";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString = "INSERT INTO tbl_TEAMS (TEAM_NAME) VALUES (@team)";
+            string queryString = "INSERT INTO Team (TeamName) VALUES (@team)";
 
             SqlCommand command = new SqlCommand(queryString, con);
             command.Parameters.AddWithValue("@team", t.TeamName);

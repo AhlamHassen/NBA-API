@@ -36,3 +36,5 @@ C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\
 C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\webApi\obj\Debug\net5.0\ref\webApi.dll
 C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\webApi\obj\Debug\net5.0\webApi.pdb
 C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\webApi\obj\Debug\net5.0\webApi.genruntimeconfig.cache
+C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\webApi\bin\Debug\net5.0\Player.dll
+C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\webApi\bin\Debug\net5.0\Player.pdb

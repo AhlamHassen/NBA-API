@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\webApi\\webApi.csproj": {}
+    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Player\\Player.csproj": {
+    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\Player.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Player\\Player.csproj",
+        "projectUniqueName": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\Player.csproj",
         "projectName": "Player",
-        "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Player\\Player.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Player\\obj\\",
+        "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\Player.csproj",
+        "packagesPath": "C:\\Users\\dnadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dnadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -58,26 +64,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj": {
+    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Team\\Team.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj",
+        "projectUniqueName": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Team\\Team.csproj",
         "projectName": "Team",
-        "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\obj\\",
+        "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Team\\Team.csproj",
+        "packagesPath": "C:\\Users\\dnadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Team\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dnadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,6 +104,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -120,37 +132,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\webApi\\webApi.csproj": {
+    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\webApi\\webApi.csproj",
+        "projectUniqueName": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj",
         "projectName": "webApi",
-        "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\webApi\\webApi.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\webApi\\obj\\",
+        "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj",
+        "packagesPath": "C:\\Users\\dnadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dnadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Player\\Player.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Player\\Player.csproj"
+              "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\Player.csproj": {
+                "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\Player.csproj"
               },
-              "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive - Swinburne University\\NBA_Project_Shared_Folder\\NBA-API\\Team\\Team.csproj"
+              "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Team\\Team.csproj": {
+                "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Team\\Team.csproj"
               }
             }
           }
@@ -165,6 +179,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -192,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

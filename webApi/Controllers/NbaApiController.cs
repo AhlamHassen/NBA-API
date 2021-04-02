@@ -11,15 +11,17 @@ namespace webApi.Controllers
     [Route("[controller]")]
     public class NbaApiController : ControllerBase
     {
-        public Team Team { get; set; }
+        public Team Team { get; set; }        
         public List<Team> Teams;
-
         public List<Player> Players;
+
+
 
         public NbaApiController()
         {
             this.Team = new Team();
             this.Teams = new List<Team>();
+            this.Players = new List<Player>();
         }
 
         [HttpPost("CheckTeam")]
@@ -82,25 +84,24 @@ namespace webApi.Controllers
             Initial Catalog=nba-db-main;User ID=admin; Password=nbaadmin1234";
             SqlConnection con = new SqlConnection(connectionString);
 
-            string queryString = "SELECT * FROM Players";
+            string queryString = "SELECT * FROM allPlayers";
             SqlCommand command = new SqlCommand(queryString, con); 
 
             try
             {
                 con.Open();
                 using (SqlDataReader reader = command.ExecuteReader()) 
-                {
+                {                  
                     while (reader.Read())
                     {
-                        Players.Add(
-                            new Player((int)reader[0], reader[1].ToString(), (int)reader[2], (int)reader[3], 
-                            (int)reader[4], (int)reader[5], (decimal)reader[6], (decimal)reader[7], (decimal)reader[8],
+                            Players.Add(
+                            new Player(reader[0].ToString(), reader[1].ToString(), (int)reader[2], (int)reader[3],
+                            (decimal)reader[4], (decimal)reader[5], (decimal)reader[6], (decimal)reader[7], (decimal)reader[8],
                             (decimal)reader[9], (decimal)reader[10], (decimal)reader[11], (decimal)reader[12],
                             (decimal)reader[13], (decimal)reader[14], (decimal)reader[15], (decimal)reader[16],
-                            (decimal)reader[17], (decimal)reader[18], (decimal)reader[19], (decimal)reader[20],
-                            (decimal)reader[21], (decimal)reader[22], (decimal)reader[23], (decimal)reader[24],
-                            (decimal)reader[25], (decimal)reader[26], (decimal)reader[27], (decimal)reader[28],
-                            (decimal)reader[29])
+                            (decimal)reader[17], (decimal)reader[18], (decimal)reader[19], (int)reader[20],
+                            (int)reader[21], (decimal)reader[22], (decimal)reader[23], (decimal)reader[24], (decimal)reader[25], (decimal)reader[26], (decimal)reader[27], (decimal)reader[28])
+                            
                         );
                     }
                 }

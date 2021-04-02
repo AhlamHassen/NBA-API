@@ -10,3 +10,15 @@ C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\
 C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\Player\obj\Debug\net5.0\Player.dll
 C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\Player\obj\Debug\net5.0\ref\Player.dll
 C:\Users\User\OneDrive - Swinburne University\NBA_Project_Shared_Folder\NBA-API\Player\obj\Debug\net5.0\Player.pdb
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\bin\Debug\net5.0\Player.deps.json
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\bin\Debug\net5.0\Player.dll
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\bin\Debug\net5.0\ref\Player.dll
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\bin\Debug\net5.0\Player.pdb
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.csprojAssemblyReference.cache
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.AssemblyInfoInputs.cache
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.AssemblyInfo.cs
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.csproj.CoreCompileInputs.cache
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.dll
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\ref\Player.dll
+C:\Users\dnadi\Desktop\NBA\NBA-API\Player\obj\Debug\net5.0\Player.pdb

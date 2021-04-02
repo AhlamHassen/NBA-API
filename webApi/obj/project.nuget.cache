@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IHevOE6JFd1F00k3YBGiAxHuk2wsyL8I4x0hoYFl3yOiNrYRdtHTks7lmGnVKB4DKJtOaqZfFHksUAzLggnFzg==",
+  "dgSpecHash": "fTn3Y032+aLrC3v2/1we4xozcR8KMJNQ2NTPfBCUXgadYXoWqGKuZw1cONwDZM7R6qzGZfq2hCTYgKRFm0iYhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj",
+  "projectFilePath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dnadi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\dnadi\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

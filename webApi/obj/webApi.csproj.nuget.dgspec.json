@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj": {}
+    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webApi\\WebApi.csproj": {}
   },
   "projects": {
     "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\Player\\Player.csproj": {
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj": {
+    "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj",
-        "projectName": "webApi",
-        "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\webApi.csproj",
+        "projectUniqueName": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\dnadi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webAPI\\obj\\",
+        "outputPath": "C:\\Users\\dnadi\\Desktop\\NBA\\NBA-API\\webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dnadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
